@@ -1,0 +1,28 @@
+/* Tex colors */
+
+.text-primary {
+    color: #28a745;
+}
+
+.text-secondary {
+    line-height: 1;
+}
+
+.text-writting {
+    white-space: nowrap;
+    border-right: 5px solid #333;
+    width: 100%;
+    letter-spacing: 10px;
+    overflow: hidden;
+    animation: 
+    typing 5s steps(21),
+    cursor .4s alternate;
+}
+
+@keyframes cursor {
+    50% { border-color: transparent;}
+}
+
+@keyframes typing {
+    from { width: 0; }
+}
